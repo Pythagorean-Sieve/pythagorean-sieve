@@ -1,4 +1,4 @@
-fromfrom .sieve import primes_up_to_r_segmented, nth_prime_r
+from .sieve import primes_up_to_r_segmented, nth_prime_r
 
 # User-friendly aliases
 primes_up_to = primes_up_to_r_segmented
@@ -10,4 +10,3 @@ __all__ = [
     "primes_up_to_r_segmented",
     "nth_prime_r",
 ]
- .sieve import primes_up_to, nth_prime
