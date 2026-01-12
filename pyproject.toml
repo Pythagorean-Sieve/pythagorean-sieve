@@ -21,8 +21,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/<TUO-USERNAME>/<TUO-REPO>"
-Repository = "https://github.com/<TUO-USERNAME>/<TUO-REPO>"
+Homepage = "https://github.com/<amato-roberto-py>/<pythagorean-sieve>"
+Repository = "https://github.com/<amato-roberto-py>/<pythagorean-sieve>"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
