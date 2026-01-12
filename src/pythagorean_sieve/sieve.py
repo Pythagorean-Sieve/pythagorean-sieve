@@ -1,3 +1,5 @@
+from math import isqrt
+
 def small_primes_upto(n):
     """Small sieve generating primes <= n (for marking up to sqrt(X))."""
     if n < 2: return []
