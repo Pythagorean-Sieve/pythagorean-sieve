@@ -8,24 +8,33 @@ version = "1.0.0"
 description = "Pythagorean sieve on the inradius index r (wheel + segmented implementation)."
 readme = "README.md"
 requires-python = ">=3.9"
-license = { file = "LICENSE" }
+
+# SPDX identifier (recommended)
+license = "AGPL-3.0-or-later"
+
 authors = [
   { name = "Roberto Amato", email = "amato.roberto.py@gmail.com" }
 ]
-keywords = ["primes", "sieve", "number-theory", "pytagorean", "wheel"]
+
+keywords = ["primes", "sieve", "number-theory", "pythagorean", "wheel"]
+
 classifiers = [
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
   "Operating System :: OS Independent",
   "Topic :: Scientific/Engineering :: Mathematics"
 ]
 
 [project.urls]
-Homepage = "https://github.com/<amato-roberto-py>/<pythagorean-sieve>"
-Repository = "https://github.com/<amato-roberto-py>/<pythagorean-sieve>"
+Homepage = "https://github.com/amato-roberto-py/pythagorean-sieve"
+Repository = "https://github.com/amato-roberto-py/pythagorean-sieve"
+Issues = "https://github.com/amato-roberto-py/pythagorean-sieve/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+# Optional: include key docs in the sdist/wheel
+[tool.setuptools.package-data]
+"" = ["LICENSE", "COMMERCIAL_LICENSE.md", "CLA.md", "README.md", "FAQ.md", "PERFORMANCE.md", "CITATION.cff"]
