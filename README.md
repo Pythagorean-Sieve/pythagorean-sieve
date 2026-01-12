@@ -19,7 +19,7 @@ The method provides:
 ## Installation
 
 ```bash
-pip install pythagorean-sieve.
+pip install pythagorean-sieve
 
 ---
 
