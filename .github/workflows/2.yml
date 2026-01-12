@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .
+
+      - name: Smoke test (import + basic calls)
+        run: |
+          python - << 'PY'
+          from pythagorean_sieve import primes_up_to, nth_prime
+          print(primes_up_to(100))
+          print("734th prime =", nth_prime(734))
+          PY
+
+      - name: Run example script
+        run: |
+          python examples/basic_usage.py
