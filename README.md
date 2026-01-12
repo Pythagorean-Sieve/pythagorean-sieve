@@ -25,7 +25,7 @@ pip install pythagorean-sieve
 
 ## Usage
 
-from pythagorean_sieve import primes_up_to, nth_prime
+```from pythagorean_sieve import primes_up_to, nth_prime
 
 print(primes_up_to(100))
 print(nth_prime(734))
