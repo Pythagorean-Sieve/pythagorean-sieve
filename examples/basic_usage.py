@@ -1,4 +1,3 @@
-```python
 from pythagorean_sieve import primes_up_to, nth_prime
 
 if __name__ == "__main__":
