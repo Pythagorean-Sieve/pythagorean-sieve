@@ -1,5 +1,4 @@
-# pythagorean-sieve
-Pythagorean sieve on r: a recursive mod# Pythagorean Sieve on r
+# Pythagorean Sieve on r
 
 A recursive modular sieve for odd prime numbers based on Pythagorean geometry.
 
@@ -21,4 +20,3 @@ The method provides:
 
 ```bash
 pip install pythagorean-sieve
-ular characterization of odd primes
