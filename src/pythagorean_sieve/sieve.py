@@ -1,6 +1,3 @@
-\begin{lstlisting}[language=Python,caption={Pythagorean sieve on r: wheel + segmentation},label={lst:pythagorean-sieve}]
-from math import isqrt
-
 def small_primes_upto(n):
     """Small sieve generating primes <= n (for marking up to sqrt(X))."""
     if n < 2: return []
@@ -124,14 +121,4 @@ def nth_prime_r(n, guess=5000):
         if len(ps) >= n:
             return ps[n-1]
         X *= 2
-\end{lstlisting}
 
-\medskip
-\emph{Example usage}
-\begin{lstlisting}[language=Python]
-if __name__ == "__main__":
-    plist = primes_up_to_r_segmented(100, segment_size=100_000)
-    print(plist)
-    print("count =", len(plist))
-    print("734th prime =", nth_prime_r(734))
-\end{lstlisting}
