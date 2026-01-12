@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythagorean-sieve"
+version = "1.0.0"
+description = "Pythagorean sieve on the inradius index r (wheel + segmented implementation)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Roberto Amato", email = "amato.roberto.py@gmail.com" }
+]
+keywords = ["primes", "sieve", "number-theory", "pytagorean", "wheel"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[project.urls]
+Homepage = "https://github.com/<TUO-USERNAME>/<TUO-REPO>"
+Repository = "https://github.com/<TUO-USERNAME>/<TUO-REPO>"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
