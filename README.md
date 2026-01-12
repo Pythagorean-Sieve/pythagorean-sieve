@@ -14,14 +14,14 @@ The method provides:
 - an **ordered generator of odd primes**,
 - direct computation of the *n*-th prime.
 
----
+
 
 ## Installation
 
 ```bash
 pip install pythagorean-sieve
 
----
+
 
 ### Usage
 
