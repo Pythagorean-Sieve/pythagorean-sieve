@@ -14,18 +14,17 @@ The method provides:
 - an **ordered generator of odd primes**,
 - direct computation of the *n*-th prime.
 
-
+---
 
 ## Installation
 
-```bash
+
 pip install pythagorean-sieve
 
+---
 
+###  Usage
 
-### Usage
-
-```bash
 from pythagorean_sieve import primes_up_to, nth_prime
 
 print(primes_up_to(100))
@@ -33,7 +32,7 @@ print(nth_prime(734))
 
 ---
 
-## License
+#### License
 
 This project is distributed under a dual licensing model:
 
@@ -49,7 +48,7 @@ COMMERCIAL_LICENSE.md
 
 ---
 
-## Commercial note
+##### Commercial note
 
 For commercial use or integration into proprietary software without disclosure obligations,
 please contact:
@@ -59,14 +58,14 @@ Roberto Amato
 
 ---
 
-## Contributions
+###### Contributions
 
 Contributions are welcome only after signing a Contributor License Agreement (CLA).
 See CLA.md and CONTRIBUTING.md.
 
 ---
 
-## Citation
+####### Citation
 
 If you use this software in academic work, please cite the associated paper.
 
