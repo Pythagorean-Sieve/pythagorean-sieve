@@ -35,6 +35,4 @@ package-dir = {"" = "src"}
 [tool.setuptools.packages.find]
 where = ["src"]
 
-# Optional: include key docs in the sdist/wheel
-[tool.setuptools.package-data]
-"" = ["LICENSE", "COMMERCIAL_LICENSE.md", "CLA.md", "README.md", "FAQ.md", "PERFORMANCE.md", "CITATION.cff"]
+
